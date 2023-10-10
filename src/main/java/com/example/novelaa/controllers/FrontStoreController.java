@@ -9,8 +9,6 @@ public class FrontStoreController {
 
     @RequestMapping("/")
 public String frontStore(){
-        //ModelAndView mv = new ModelAndView("index");
-        //int num = 3;
         return "index";
     }
 }
