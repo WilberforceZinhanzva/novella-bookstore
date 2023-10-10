@@ -1,0 +1,11 @@
+server:
+  compression:
+    enabled: true
+    mime-types: application/wasm, application/octet-stream
+    min-response-size: 3000
+spring:
+
+
+#  thymeleaf:
+#    prefix: classpath:/templates
+#    suffix: .html
